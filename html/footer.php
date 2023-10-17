@@ -1,8 +1,4 @@
    
-   		</div>
-      </div><!-- /.container-fluid -->
-    </div>
-
    <!-- /.content -->
     </div>
   <!-- Control Sidebar -->
