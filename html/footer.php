@@ -14,7 +14,7 @@
       Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Projet sayna By RAKOTONDRAINY Fanomezantsoa&copy; 2023</strong>
+    <strong>Projet Sayna By RAKOTONDRAINY Fanomezantsoa &copy;2023</strong>
   </footer>
 </div>
 <!-- jQuery -->
