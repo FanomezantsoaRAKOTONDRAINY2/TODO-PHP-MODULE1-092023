@@ -10,7 +10,7 @@ function displayItem($key,$item)
         $html.='<div class="input-group input-group-sm">
                     <input type="text" class="form-control" name="intitule" value="'.$item['intitule'].'">
                     <span class="input-group-append">
-                        <button type="submit" class="btn btn-info btn-flat"> Go</button>
+                        <button type="submit" class="btn btn-info btn-flat">Modiffie</button>
                     </span>  
                 </div>';
         $html.='</form>';
@@ -36,7 +36,7 @@ function displayItem($key,$item)
                         <i class="far fa-edit"></i>
                     </a>
                     <a href="deleteItem.php?item='.$key.'">
-                        <i class="fas fa-minus-square"></i>
+                         <i class="fas fa-trash-alt"></i>
                     </a>
                     </div>
                 </li>'; 
