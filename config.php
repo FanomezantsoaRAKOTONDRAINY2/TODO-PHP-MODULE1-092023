@@ -1,3 +1,0 @@
-<?php
-   $dataFilePath = 'data.txt';
-?>

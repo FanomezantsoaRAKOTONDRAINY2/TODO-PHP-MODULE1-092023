@@ -1,16 +1,21 @@
-<?php
-include 'config.php';
+<?php 
+    include('config/app.php');
+    include('fct/request.php');
+    include('fct/item.php');
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $nouveauEt = [
-        'id' => uniqid(), // Générer un ID unique (ou utiliser un compteur)
-        'intitule' => $_POST['intitule'],
+    $intitule = post('intitule');
+
+    $items = getItems();
+    $items[] = [
+        'id'=>uniqid(),
+        'checked'=>false,
+        'intitule'=>$intitule
     ];
 
-    // Ajouter le nouveau produit au fichier de données
-    file_put_contents($dataFilePath, serialize($nouveauEt) . PHP_EOL, FILE_APPEND);
+    saveItems($items);
+    
 
-    // Rediriger vers la liste des produits
-    header('Location: index.php');
-}
-?>
+    //----
+    //traitement de nouvel item
+
+    header('Location:index.php');

@@ -4,9 +4,9 @@ include('fct/request.php');
 include('config/app.php');
 
 $items = getItems();
-$id = post('editItem');
+$id = get('item');
 
-$items[$id]['intitule'] = post('intitule');
+$items[$id]['checked'] = !$items[$id]['checked'];
 
 saveItems($items);
 

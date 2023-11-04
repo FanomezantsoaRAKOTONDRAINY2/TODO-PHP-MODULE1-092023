@@ -1,0 +1,1 @@
+a:2:{i:2;a:3:{s:2:"id";s:13:"652e675adf41c";s:7:"checked";b:0;s:8:"intitule";s:8:"item 3.3";}i:4;a:3:{s:2:"id";s:13:"6545eb2007994";s:7:"checked";b:0;s:8:"intitule";s:7:"fanel's";}}
